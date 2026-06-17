@@ -1,0 +1,30 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: platform-team
+  description: "Equipo de plataforma, dueño del portal"
+spec:
+  type: team
+  members:
+    - maria.sanchez
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: banca-digital-team
+  description: "Equipo responsable de pagos y cuentas — FinTech Peru"
+spec:
+  type: team
+  members:
+    - ana.torres
+    - carlos.perez
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: creditos-team
+  description: "Dueño del servicio de préstamos"
+spec:
+  type: team
+  members:
+    - luis.gomez

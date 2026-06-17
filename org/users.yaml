@@ -1,0 +1,43 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: ana.torres
+spec:
+  profile:
+    displayName: Ana Torres
+    email: ana.torres@fintechperu.com
+  memberOf:
+    - banca-digital-team
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: carlos.perez
+spec:
+  profile:
+    displayName: Carlos Perez
+    email: carlos.perez@fintechperu.com
+  memberOf:
+    - banca-digital-team
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: luis.gomez
+spec:
+  profile:
+    displayName: Luis Gomez
+    email: luis.gomez@fintechperu.com
+  memberOf:
+    - creditos-team
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: maria.sanchez
+spec:
+  profile:
+    displayName: Maria Sanchez
+    email: maria.sanchez@fintechperu.com
+  memberOf:
+    - platform-team
